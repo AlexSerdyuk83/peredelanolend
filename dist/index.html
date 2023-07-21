@@ -7,8 +7,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>PEREDELANO CONF</title>
     <link rel="icon" href="img/favicon.ico" type="image/x-icon">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css?_v=20230715130736"/>
-    <link rel="stylesheet" href="css/style.min.css?_v=20230715130736">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css?_v=20230721211349"/>
+    <link rel="stylesheet" href="css/style.min.css?_v=20230721211349">
 
 </head>
 <body>
@@ -31,12 +31,12 @@
             Коктейль IT <span class="first__title first__title_pink"> конференции</span>,<br/> домашней <span class="first__title first__title_pink"> вечеринки</span> и <span class="first__title first__title_pink"> митапа</span>
         </h1>
         <div class="first__interactive">
-            <a href="#tabs__content" class="button first__button">выбрать город</a>
+            <a href="#choose" class="button first__button">выбрать город</a>
         </div>
         <h2 class="first__title">
             <span class="first__title first__title_pink"> приходите к нам</span>, и вас встретят,<br/> как долгожданного лучшего друга
         </h2>
-        <a href="#tabs__content" class="button first__button-mobile">выбрать город</a>
+        <a href="#choose" class="button first__button-mobile">выбрать город</a>
     </div>
 </section>
     <section class="slides">
@@ -85,241 +85,339 @@
             </p>
         </div>
         <div class="tabs">
-    <div class="tabs__nav">
+    <div class="tabs__nav" id="choose">
       <button class="tabs__btn tabs__btn_active">Европа</button>
       <button class="tabs__btn">Азия</button>
       <button class="tabs__btn">Америка</button>
+      <button class="tabs__btn">Африка</button>
     </div>
-    <div class="tabs__content" id="tabs__content">
+    <div class="tabs__content">
       <div class="tabs__pane tabs__pane_show">
-        <div class="card">
-    <picture><source srcset="img/image.webp" type="image/webp"><img src="img/image.jpg" alt="city" class="card__img"></picture>
-    <h3 class="card__title">Бангкок</h3>
-    <p class="card__text">Анонсируем раннюю регистрацию, самая расслабленная, самая сплачивающая, и при этом самая полезная тусовка для русскоязычных айтишников</p>
-    <h3 class="card__title">19 августа</h3>
-    <a href="https://t.me/peredelanoconf_bangkok/421" target="_blank" class="button">присоединиться</a>
-    <svg class="mark" xmlns="http://www.w3.org/2000/svg" width="49" height="49" viewBox="0 0 49 49" fill="none">
-        <path d="M13 9H38V37H13V9Z" class="mark_bg"/>
-        <path d="M33 37H38V41H33V37Z" class="mark_bg"/>
-        <path d="M13 37H18V41H13V37Z" class="mark_bg"/>
-        <path d="M37.125 5H13.875V9H37.125V41H33.25V37H29.375V33H21.625V37H17.75V41H13.875V5H10V45H17.75V41H21.625V37H29.375V41H33.25V45H41V5H37.125Z" fill="#303030"/>
-      </svg>
+          <div class="card">
+  <picture><source srcset="img/image.webp" type="image/webp"><img src="img/image.jpg" alt="city" class="card__img"></picture>
+  <h3 class="card__title">Сербия</h3>
+  <p class="card__text">Началась работа над первым митапом Peredelanoconf в Сербия! Митап будет проходить в формате огромной домашней вечеринки.</p>
+  <h3 class="card__title">12 АВГУСТА</h3>
+  <a href="https://t.me/peredelanoconfbelgrade" class="button">присоединиться</a>
+  <svg class="mark" xmlns="http://www.w3.org/2000/svg" width="49" height="49" viewBox="0 0 49 49" fill="none">
+    <path d="M13 9H38V37H13V9Z" class="mark_bg"/>
+    <path d="M33 37H38V41H33V37Z" class="mark_bg"/>
+    <path d="M13 37H18V41H13V37Z" class="mark_bg"/>
+    <path d="M37.125 5H13.875V9H37.125V41H33.25V37H29.375V33H21.625V37H17.75V41H13.875V5H10V45H17.75V41H21.625V37H29.375V41H33.25V45H41V5H37.125Z" fill="#303030"/>
+  </svg>
+</div><div class="card">
+  <picture><source srcset="img/image.webp" type="image/webp"><img src="img/image.jpg" alt="city" class="card__img"></picture>
+  <h3 class="card__title">Лиссабон</h3>
+  <p class="card__text">Началась работа над первым митапом Peredelanoconf в Лиссабон! Митап будет проходить в формате огромной домашней вечеринки.</p>
+  <h3 class="card__title">19 АВГУСТА</h3>
+  <a href="https://t.me/peredelanoconflisbon" class="button">присоединиться</a>
+  <svg class="mark" xmlns="http://www.w3.org/2000/svg" width="49" height="49" viewBox="0 0 49 49" fill="none">
+    <path d="M13 9H38V37H13V9Z" class="mark_bg"/>
+    <path d="M33 37H38V41H33V37Z" class="mark_bg"/>
+    <path d="M13 37H18V41H13V37Z" class="mark_bg"/>
+    <path d="M37.125 5H13.875V9H37.125V41H33.25V37H29.375V33H21.625V37H17.75V41H13.875V5H10V45H17.75V41H21.625V37H29.375V41H33.25V45H41V5H37.125Z" fill="#303030"/>
+  </svg>
+</div><div class="card">
+  <picture><source srcset="img/image.webp" type="image/webp"><img src="img/image.jpg" alt="city" class="card__img"></picture>
+  <h3 class="card__title">Хельсинки</h3>
+  <p class="card__text">Началась работа над первым митапом Peredelanoconf в Хельсинки! Митап будет проходить в формате огромной домашней вечеринки.</p>
+  <h3 class="card__title">26 АВГУСТА</h3>
+  <a href="https://t.me/peredelanoconfhelsinki" class="button">присоединиться</a>
+  <svg class="mark" xmlns="http://www.w3.org/2000/svg" width="49" height="49" viewBox="0 0 49 49" fill="none">
+    <path d="M13 9H38V37H13V9Z" class="mark_bg"/>
+    <path d="M33 37H38V41H33V37Z" class="mark_bg"/>
+    <path d="M13 37H18V41H13V37Z" class="mark_bg"/>
+    <path d="M37.125 5H13.875V9H37.125V41H33.25V37H29.375V33H21.625V37H17.75V41H13.875V5H10V45H17.75V41H21.625V37H29.375V41H33.25V45H41V5H37.125Z" fill="#303030"/>
+  </svg>
+</div><div class="card">
+  <picture><source srcset="img/image.webp" type="image/webp"><img src="img/image.jpg" alt="city" class="card__img"></picture>
+  <h3 class="card__title">Ереван</h3>
+  <p class="card__text">Началась работа над первым митапом Peredelanoconf в Ереван! Митап будет проходить в формате огромной домашней вечеринки.</p>
+  <h3 class="card__title">26 АВГУСТА</h3>
+  <a href="https://t.me/peredelanoconfyerevan" class="button">присоединиться</a>
+  <svg class="mark" xmlns="http://www.w3.org/2000/svg" width="49" height="49" viewBox="0 0 49 49" fill="none">
+    <path d="M13 9H38V37H13V9Z" class="mark_bg"/>
+    <path d="M33 37H38V41H33V37Z" class="mark_bg"/>
+    <path d="M13 37H18V41H13V37Z" class="mark_bg"/>
+    <path d="M37.125 5H13.875V9H37.125V41H33.25V37H29.375V33H21.625V37H17.75V41H13.875V5H10V45H17.75V41H21.625V37H29.375V41H33.25V45H41V5H37.125Z" fill="#303030"/>
+  </svg>
+</div><div class="card">
+  <picture><source srcset="img/image.webp" type="image/webp"><img src="img/image.jpg" alt="city" class="card__img"></picture>
+  <h3 class="card__title">Барселона</h3>
+  <p class="card__text">Началась работа над первым митапом Peredelanoconf в Барселона! Митап будет проходить в формате огромной домашней вечеринки.</p>
+  <h3 class="card__title">26 АВГУСТА</h3>
+  <a href="https://t.me/peredelanoconfbarcelona" class="button">присоединиться</a>
+  <svg class="mark" xmlns="http://www.w3.org/2000/svg" width="49" height="49" viewBox="0 0 49 49" fill="none">
+    <path d="M13 9H38V37H13V9Z" class="mark_bg"/>
+    <path d="M33 37H38V41H33V37Z" class="mark_bg"/>
+    <path d="M13 37H18V41H13V37Z" class="mark_bg"/>
+    <path d="M37.125 5H13.875V9H37.125V41H33.25V37H29.375V33H21.625V37H17.75V41H13.875V5H10V45H17.75V41H21.625V37H29.375V41H33.25V45H41V5H37.125Z" fill="#303030"/>
+  </svg>
+</div><div class="card">
+  <picture><source srcset="img/image.webp" type="image/webp"><img src="img/image.jpg" alt="city" class="card__img"></picture>
+  <h3 class="card__title">Будва</h3>
+  <p class="card__text">Началась работа над первым митапом Peredelanoconf в Будва! Митап будет проходить в формате огромной домашней вечеринки.</p>
+  <h3 class="card__title">02 СЕНТЯБРЯ</h3>
+  <a href="https://t.me/peredelanoconf_montenegro" class="button">присоединиться</a>
+  <svg class="mark" xmlns="http://www.w3.org/2000/svg" width="49" height="49" viewBox="0 0 49 49" fill="none">
+    <path d="M13 9H38V37H13V9Z" class="mark_bg"/>
+    <path d="M33 37H38V41H33V37Z" class="mark_bg"/>
+    <path d="M13 37H18V41H13V37Z" class="mark_bg"/>
+    <path d="M37.125 5H13.875V9H37.125V41H33.25V37H29.375V33H21.625V37H17.75V41H13.875V5H10V45H17.75V41H21.625V37H29.375V41H33.25V45H41V5H37.125Z" fill="#303030"/>
+  </svg>
+</div><div class="card">
+  <picture><source srcset="img/image.webp" type="image/webp"><img src="img/image.jpg" alt="city" class="card__img"></picture>
+  <h3 class="card__title">Варшава</h3>
+  <p class="card__text">Началась работа над первым митапом Peredelanoconf в Варшава! Митап будет проходить в формате огромной домашней вечеринки.</p>
+  <h3 class="card__title">02 СЕНТЯБРЯ</h3>
+  <a href="https://t.me/peredelanoconf_warsaw" class="button">присоединиться</a>
+  <svg class="mark" xmlns="http://www.w3.org/2000/svg" width="49" height="49" viewBox="0 0 49 49" fill="none">
+    <path d="M13 9H38V37H13V9Z" class="mark_bg"/>
+    <path d="M33 37H38V41H33V37Z" class="mark_bg"/>
+    <path d="M13 37H18V41H13V37Z" class="mark_bg"/>
+    <path d="M37.125 5H13.875V9H37.125V41H33.25V37H29.375V33H21.625V37H17.75V41H13.875V5H10V45H17.75V41H21.625V37H29.375V41H33.25V45H41V5H37.125Z" fill="#303030"/>
+  </svg>
+</div><div class="card">
+  <picture><source srcset="img/image.webp" type="image/webp"><img src="img/image.jpg" alt="city" class="card__img"></picture>
+  <h3 class="card__title">Лондон</h3>
+  <p class="card__text">Началась работа над первым митапом Peredelanoconf в Лондон! Митап будет проходить в формате огромной домашней вечеринки.</p>
+  <h3 class="card__title">16 СЕНТЯБРЯ</h3>
+  <a href="https://t.me/peredelanoconf_england" class="button">присоединиться</a>
+  <svg class="mark" xmlns="http://www.w3.org/2000/svg" width="49" height="49" viewBox="0 0 49 49" fill="none">
+    <path d="M13 9H38V37H13V9Z" class="mark_bg"/>
+    <path d="M33 37H38V41H33V37Z" class="mark_bg"/>
+    <path d="M13 37H18V41H13V37Z" class="mark_bg"/>
+    <path d="M37.125 5H13.875V9H37.125V41H33.25V37H29.375V33H21.625V37H17.75V41H13.875V5H10V45H17.75V41H21.625V37H29.375V41H33.25V45H41V5H37.125Z" fill="#303030"/>
+  </svg>
+</div><div class="card">
+  <picture><source srcset="img/image.webp" type="image/webp"><img src="img/image.jpg" alt="city" class="card__img"></picture>
+  <h3 class="card__title">Париж</h3>
+  <p class="card__text">Началась работа над первым митапом Peredelanoconf в Париж! Митап будет проходить в формате огромной домашней вечеринки.</p>
+  <h3 class="card__title">16 СЕНТЯБРЯ</h3>
+  <a href="https://t.me/peredelano_France" class="button">присоединиться</a>
+  <svg class="mark" xmlns="http://www.w3.org/2000/svg" width="49" height="49" viewBox="0 0 49 49" fill="none">
+    <path d="M13 9H38V37H13V9Z" class="mark_bg"/>
+    <path d="M33 37H38V41H33V37Z" class="mark_bg"/>
+    <path d="M13 37H18V41H13V37Z" class="mark_bg"/>
+    <path d="M37.125 5H13.875V9H37.125V41H33.25V37H29.375V33H21.625V37H17.75V41H13.875V5H10V45H17.75V41H21.625V37H29.375V41H33.25V45H41V5H37.125Z" fill="#303030"/>
+  </svg>
+</div><div class="card">
+  <picture><source srcset="img/image.webp" type="image/webp"><img src="img/image.jpg" alt="city" class="card__img"></picture>
+  <h3 class="card__title">Будапешт</h3>
+  <p class="card__text">Началась работа над первым митапом Peredelanoconf в Будапешт! Митап будет проходить в формате огромной домашней вечеринки.</p>
+  <h3 class="card__title">16 СЕНТЯБРЯ</h3>
+  <a href="https://t.me/peredelanoconf_hungary" class="button">присоединиться</a>
+  <svg class="mark" xmlns="http://www.w3.org/2000/svg" width="49" height="49" viewBox="0 0 49 49" fill="none">
+    <path d="M13 9H38V37H13V9Z" class="mark_bg"/>
+    <path d="M33 37H38V41H33V37Z" class="mark_bg"/>
+    <path d="M13 37H18V41H13V37Z" class="mark_bg"/>
+    <path d="M37.125 5H13.875V9H37.125V41H33.25V37H29.375V33H21.625V37H17.75V41H13.875V5H10V45H17.75V41H21.625V37H29.375V41H33.25V45H41V5H37.125Z" fill="#303030"/>
+  </svg>
+</div><div class="card">
+  <picture><source srcset="img/image.webp" type="image/webp"><img src="img/image.jpg" alt="city" class="card__img"></picture>
+  <h3 class="card__title">Милан</h3>
+  <p class="card__text">Началась работа над первым митапом Peredelanoconf в Милан! Митап будет проходить в формате огромной домашней вечеринки.</p>
+  <h3 class="card__title">16 СЕНТЯБРЯ</h3>
+  <a href="https://t.me/peredelano_milan" class="button">присоединиться</a>
+  <svg class="mark" xmlns="http://www.w3.org/2000/svg" width="49" height="49" viewBox="0 0 49 49" fill="none">
+    <path d="M13 9H38V37H13V9Z" class="mark_bg"/>
+    <path d="M33 37H38V41H33V37Z" class="mark_bg"/>
+    <path d="M13 37H18V41H13V37Z" class="mark_bg"/>
+    <path d="M37.125 5H13.875V9H37.125V41H33.25V37H29.375V33H21.625V37H17.75V41H13.875V5H10V45H17.75V41H21.625V37H29.375V41H33.25V45H41V5H37.125Z" fill="#303030"/>
+  </svg>
+</div><div class="card">
+  <picture><source srcset="img/image.webp" type="image/webp"><img src="img/image.jpg" alt="city" class="card__img"></picture>
+  <h3 class="card__title">Копенгаген</h3>
+  <p class="card__text">Началась работа над первым митапом Peredelanoconf в Копенгаген! Митап будет проходить в формате огромной домашней вечеринки.</p>
+  <h3 class="card__title">30 СЕНТЯБРЯ</h3>
+  <a href="https://t.me/peredelano_copenhagen" class="button">присоединиться</a>
+  <svg class="mark" xmlns="http://www.w3.org/2000/svg" width="49" height="49" viewBox="0 0 49 49" fill="none">
+    <path d="M13 9H38V37H13V9Z" class="mark_bg"/>
+    <path d="M33 37H38V41H33V37Z" class="mark_bg"/>
+    <path d="M13 37H18V41H13V37Z" class="mark_bg"/>
+    <path d="M37.125 5H13.875V9H37.125V41H33.25V37H29.375V33H21.625V37H17.75V41H13.875V5H10V45H17.75V41H21.625V37H29.375V41H33.25V45H41V5H37.125Z" fill="#303030"/>
+  </svg>
+</div><div class="card">
+  <picture><source srcset="img/image.webp" type="image/webp"><img src="img/image.jpg" alt="city" class="card__img"></picture>
+  <h3 class="card__title">Стокгольм</h3>
+  <p class="card__text">Началась работа над первым митапом Peredelanoconf в Стокгольм! Митап будет проходить в формате огромной домашней вечеринки.</p>
+  <h3 class="card__title">30 СЕНТЯБРЯ</h3>
+  <a href="https://t.me/peredelano_stockholm" class="button">присоединиться</a>
+  <svg class="mark" xmlns="http://www.w3.org/2000/svg" width="49" height="49" viewBox="0 0 49 49" fill="none">
+    <path d="M13 9H38V37H13V9Z" class="mark_bg"/>
+    <path d="M33 37H38V41H33V37Z" class="mark_bg"/>
+    <path d="M13 37H18V41H13V37Z" class="mark_bg"/>
+    <path d="M37.125 5H13.875V9H37.125V41H33.25V37H29.375V33H21.625V37H17.75V41H13.875V5H10V45H17.75V41H21.625V37H29.375V41H33.25V45H41V5H37.125Z" fill="#303030"/>
+  </svg>
+</div><div class="card">
+  <picture><source srcset="img/image.webp" type="image/webp"><img src="img/image.jpg" alt="city" class="card__img"></picture>
+  <h3 class="card__title">Копенгаген</h3>
+  <p class="card__text">Началась работа над первым митапом Peredelanoconf в Копенгаген! Митап будет проходить в формате огромной домашней вечеринки.</p>
+  <h3 class="card__title">30 СЕНТЯБРЯ</h3>
+  <a href="https://t.me/peredelano_copenhagen" class="button">присоединиться</a>
+  <svg class="mark" xmlns="http://www.w3.org/2000/svg" width="49" height="49" viewBox="0 0 49 49" fill="none">
+    <path d="M13 9H38V37H13V9Z" class="mark_bg"/>
+    <path d="M33 37H38V41H33V37Z" class="mark_bg"/>
+    <path d="M13 37H18V41H13V37Z" class="mark_bg"/>
+    <path d="M37.125 5H13.875V9H37.125V41H33.25V37H29.375V33H21.625V37H17.75V41H13.875V5H10V45H17.75V41H21.625V37H29.375V41H33.25V45H41V5H37.125Z" fill="#303030"/>
+  </svg>
+</div><div class="card">
+  <picture><source srcset="img/image.webp" type="image/webp"><img src="img/image.jpg" alt="city" class="card__img"></picture>
+  <h3 class="card__title">Стокгольм</h3>
+  <p class="card__text">Началась работа над первым митапом Peredelanoconf в Стокгольм! Митап будет проходить в формате огромной домашней вечеринки.</p>
+  <h3 class="card__title">30 СЕНТЯБРЯ</h3>
+  <a href="https://t.me/peredelano_stockholm" class="button">присоединиться</a>
+  <svg class="mark" xmlns="http://www.w3.org/2000/svg" width="49" height="49" viewBox="0 0 49 49" fill="none">
+    <path d="M13 9H38V37H13V9Z" class="mark_bg"/>
+    <path d="M33 37H38V41H33V37Z" class="mark_bg"/>
+    <path d="M13 37H18V41H13V37Z" class="mark_bg"/>
+    <path d="M37.125 5H13.875V9H37.125V41H33.25V37H29.375V33H21.625V37H17.75V41H13.875V5H10V45H17.75V41H21.625V37H29.375V41H33.25V45H41V5H37.125Z" fill="#303030"/>
+  </svg>
 </div>
-        <div class="card">
-    <picture><source srcset="img/image.webp" type="image/webp"><img src="img/image.jpg" alt="city" class="card__img"></picture>
-    <h3 class="card__title">Белград</h3>
-    <p class="card__text">Главная фишка наших ивентов – никакого официоза, мероприятия проходят весело и неформально: мы собираемся на необычных площадках, в загородных домах, барах, проводим квартирники и т.д.</p>
-    <h3 class="card__title">12 августа</h3>
-    <a href="https://t.me/peredelanoconfbelgrade/6353" target="_blank" class="button">присоединиться</a>
-    <svg class="mark" xmlns="http://www.w3.org/2000/svg" width="49" height="49" viewBox="0 0 49 49" fill="none">
-        <path d="M13 9H38V37H13V9Z" class="mark_bg"/>
-        <path d="M33 37H38V41H33V37Z" class="mark_bg"/>
-        <path d="M13 37H18V41H13V37Z" class="mark_bg"/>
-        <path d="M37.125 5H13.875V9H37.125V41H33.25V37H29.375V33H21.625V37H17.75V41H13.875V5H10V45H17.75V41H21.625V37H29.375V41H33.25V45H41V5H37.125Z" fill="#303030"/>
-      </svg>
-</div>
-        <div class="card">
-    <picture><source srcset="img/image.webp" type="image/webp"><img src="img/image.jpg" alt="city" class="card__img"></picture>
-    <h3 class="card__title">Ереван</h3>
-    <p class="card__text">На наших митапах не будет пафоса и официоза. Открытые диалоги в расслабленной обстановке — так мы строим каждый свой митап.</p>
-    <h3 class="card__title">26 августа</h3>
-    <a href="https://t.me/peredelanoconfyerevan/1987" target="_blank" class="button">присоединиться</a>
-    <svg class="mark" xmlns="http://www.w3.org/2000/svg" width="49" height="49" viewBox="0 0 49 49" fill="none">
-        <path d="M13 9H38V37H13V9Z" class="mark_bg"/>
-        <path d="M33 37H38V41H33V37Z" class="mark_bg"/>
-        <path d="M13 37H18V41H13V37Z" class="mark_bg"/>
-        <path d="M37.125 5H13.875V9H37.125V41H33.25V37H29.375V33H21.625V37H17.75V41H13.875V5H10V45H17.75V41H21.625V37H29.375V41H33.25V45H41V5H37.125Z" fill="#303030"/>
-      </svg>
-</div>
-        <div class="card">
-    <picture><source srcset="img/image.webp" type="image/webp"><img src="img/image.jpg" alt="city" class="card__img"></picture>
-    <h3 class="card__title">Стамбул</h3>
-    <p class="card__text">И мы радостно хотим сообщить — анонсируем early bird продажи на митап в Стамбуле по сладким ценам! Залетайте на ивент 29 июля, 2023г., 15.00 ждём вас!</p>
-    <h3 class="card__title">29 июля</h3>
-    <a href="https://t.me/peredelanoconf_istanbul/801" target="_blank" class="button">присоединиться</a>
-    <svg class="mark" xmlns="http://www.w3.org/2000/svg" width="49" height="49" viewBox="0 0 49 49" fill="none">
-        <path d="M13 9H38V37H13V9Z" class="mark_bg"/>
-        <path d="M33 37H38V41H33V37Z" class="mark_bg"/>
-        <path d="M13 37H18V41H13V37Z" class="mark_bg"/>
-        <path d="M37.125 5H13.875V9H37.125V41H33.25V37H29.375V33H21.625V37H17.75V41H13.875V5H10V45H17.75V41H21.625V37H29.375V41H33.25V45H41V5H37.125Z" fill="#303030"/>
-      </svg>
-</div>
-        <div class="card">
-    <picture><source srcset="img/image.webp" type="image/webp"><img src="img/image.jpg" alt="city" class="card__img"></picture>
-    <h3 class="card__title">Лиссабон</h3>
-    <p class="card__text">Крупные тусовки проходят за городом: мы снимаем комфортный дом с кучей ништяков, закуски и напитки, зовем спикеров на открытый микрофон, берём гитары, настолки и даём возможность до рассвета общаться.</p>
-    <h3 class="card__title">19 августа</h3>
-    <a href="https://t.me/peredelanoconflisbon/793" target="_blank" class="button">присоединиться</a>
-    <svg class="mark" xmlns="http://www.w3.org/2000/svg" width="49" height="49" viewBox="0 0 49 49" fill="none">
-        <path d="M13 9H38V37H13V9Z" class="mark_bg"/>
-        <path d="M33 37H38V41H33V37Z" class="mark_bg"/>
-        <path d="M13 37H18V41H13V37Z" class="mark_bg"/>
-        <path d="M37.125 5H13.875V9H37.125V41H33.25V37H29.375V33H21.625V37H17.75V41H13.875V5H10V45H17.75V41H21.625V37H29.375V41H33.25V45H41V5H37.125Z" fill="#303030"/>
-      </svg>
-</div>
-        <div class="card">
-    <picture><source srcset="img/image.webp" type="image/webp"><img src="img/image.jpg" alt="city" class="card__img"></picture>
-    <h3 class="card__title">Барселона</h3>
-    <p class="card__text">Формат наших митапов уже нашел мощный отклик в 10 странах мира, ребята построили большое дружное комьюнити</p>
-    <h3 class="card__title">26 августа</h3>
-    <a href="https://t.me/peredelanoconfbarcelona/340" target="_blank" class="button">присоединиться</a>
-    <svg class="mark" xmlns="http://www.w3.org/2000/svg" width="49" height="49" viewBox="0 0 49 49" fill="none">
-        <path d="M13 9H38V37H13V9Z" class="mark_bg"/>
-        <path d="M33 37H38V41H33V37Z" class="mark_bg"/>
-        <path d="M13 37H18V41H13V37Z" class="mark_bg"/>
-        <path d="M37.125 5H13.875V9H37.125V41H33.25V37H29.375V33H21.625V37H17.75V41H13.875V5H10V45H17.75V41H21.625V37H29.375V41H33.25V45H41V5H37.125Z" fill="#303030"/>
-      </svg>
-</div>
-        <div class="card">
-    <picture><source srcset="img/image.webp" type="image/webp"><img src="img/image.jpg" alt="city" class="card__img"></picture>
-    <h3 class="card__title">Бишкек</h3>
-    <p class="card__text">На митапы всегда подтягиваются участники, которые делятся крутым опытом, они подскажут, как искать работу, как менять профессию, впишутся в ваш проект или позовут в свой.</p>
-    <h3 class="card__title">26 августа</h3>
-    <a href="https://t.me/peredelanoconf_bishkek/153" target="_blank" class="button">присоединиться</a>
-    <svg class="mark" xmlns="http://www.w3.org/2000/svg" width="49" height="49" viewBox="0 0 49 49" fill="none">
-        <path d="M13 9H38V37H13V9Z" class="mark_bg"/>
-        <path d="M33 37H38V41H33V37Z" class="mark_bg"/>
-        <path d="M13 37H18V41H13V37Z" class="mark_bg"/>
-        <path d="M37.125 5H13.875V9H37.125V41H33.25V37H29.375V33H21.625V37H17.75V41H13.875V5H10V45H17.75V41H21.625V37H29.375V41H33.25V45H41V5H37.125Z" fill="#303030"/>
-      </svg>
-</div>
-        <div class="card">
-    <picture><source srcset="img/image.webp" type="image/webp"><img src="img/image.jpg" alt="city" class="card__img"></picture>
-    <h3 class="card__title">Буэнос-Айрес</h3>
-    <p class="card__text">Началась работа над первым митапом Peredelanoconf в {City}! Митап будет проходить в формате огромной домашней вечеринки.</p>
-    <h3 class="card__title">2 сентября</h3>
-    <a href="https://t.me/peredelanoconfargentina/191" target="_blank" class="button">присоединиться</a>
-    <svg class="mark" xmlns="http://www.w3.org/2000/svg" width="49" height="49" viewBox="0 0 49 49" fill="none">
-        <path d="M13 9H38V37H13V9Z" class="mark_bg"/>
-        <path d="M33 37H38V41H33V37Z" class="mark_bg"/>
-        <path d="M13 37H18V41H13V37Z" class="mark_bg"/>
-        <path d="M37.125 5H13.875V9H37.125V41H33.25V37H29.375V33H21.625V37H17.75V41H13.875V5H10V45H17.75V41H21.625V37H29.375V41H33.25V45H41V5H37.125Z" fill="#303030"/>
-      </svg>
-</div>
-        <div class="card">
-    <picture><source srcset="img/image.webp" type="image/webp"><img src="img/image.jpg" alt="city" class="card__img"></picture>
-    <h3 class="card__title">Черногория</h3>
-    <p class="card__text">На митапы всегда подтягиваются участники, которые делятся крутым опытом, они подскажут, как искать работу, как менять профессию, впишутся в ваш проект или позовут в свой.</p>
-    <h3 class="card__title">2 сентября</h3>
-    <a href="https://t.me/peredelanoconf_montenegro/93" target="_blank" class="button">присоединиться</a>
-    <svg class="mark" xmlns="http://www.w3.org/2000/svg" width="49" height="49" viewBox="0 0 49 49" fill="none">
-        <path d="M13 9H38V37H13V9Z" class="mark_bg"/>
-        <path d="M33 37H38V41H33V37Z" class="mark_bg"/>
-        <path d="M13 37H18V41H13V37Z" class="mark_bg"/>
-        <path d="M37.125 5H13.875V9H37.125V41H33.25V37H29.375V33H21.625V37H17.75V41H13.875V5H10V45H17.75V41H21.625V37H29.375V41H33.25V45H41V5H37.125Z" fill="#303030"/>
-      </svg>
+        </div>
+      <div class="tabs__pane">
+          <div class="card">
+  <picture><source srcset="img/image.webp" type="image/webp"><img src="img/image.jpg" alt="city" class="card__img"></picture>
+  <h3 class="card__title">Астана</h3>
+  <p class="card__text">Началась работа над первым митапом Peredelanoconf в Астана! Митап будет проходить в формате огромной домашней вечеринки.</p>
+  <h3 class="card__title">12 АВГУСТА</h3>
+  <a href="https://t.me/peredelanoconf_bangkok" class="button">присоединиться</a>
+  <svg class="mark" xmlns="http://www.w3.org/2000/svg" width="49" height="49" viewBox="0 0 49 49" fill="none">
+    <path d="M13 9H38V37H13V9Z" class="mark_bg"/>
+    <path d="M33 37H38V41H33V37Z" class="mark_bg"/>
+    <path d="M13 37H18V41H13V37Z" class="mark_bg"/>
+    <path d="M37.125 5H13.875V9H37.125V41H33.25V37H29.375V33H21.625V37H17.75V41H13.875V5H10V45H17.75V41H21.625V37H29.375V41H33.25V45H41V5H37.125Z" fill="#303030"/>
+  </svg>
+</div><div class="card">
+  <picture><source srcset="img/image.webp" type="image/webp"><img src="img/image.jpg" alt="city" class="card__img"></picture>
+  <h3 class="card__title">Дубай</h3>
+  <p class="card__text">Началась работа над первым митапом Peredelanoconf в Дубай! Митап будет проходить в формате огромной домашней вечеринки.</p>
+  <h3 class="card__title">16 СЕНТЯБРЯ</h3>
+  <a href="https://t.me/peredelanoconf_dubai" class="button">присоединиться</a>
+  <svg class="mark" xmlns="http://www.w3.org/2000/svg" width="49" height="49" viewBox="0 0 49 49" fill="none">
+    <path d="M13 9H38V37H13V9Z" class="mark_bg"/>
+    <path d="M33 37H38V41H33V37Z" class="mark_bg"/>
+    <path d="M13 37H18V41H13V37Z" class="mark_bg"/>
+    <path d="M37.125 5H13.875V9H37.125V41H33.25V37H29.375V33H21.625V37H17.75V41H13.875V5H10V45H17.75V41H21.625V37H29.375V41H33.25V45H41V5H37.125Z" fill="#303030"/>
+  </svg>
+</div><div class="card">
+  <picture><source srcset="img/image.webp" type="image/webp"><img src="img/image.jpg" alt="city" class="card__img"></picture>
+  <h3 class="card__title">Пномпень</h3>
+  <p class="card__text">Началась работа над первым митапом Peredelanoconf в Пномпень! Митап будет проходить в формате огромной домашней вечеринки.</p>
+  <h3 class="card__title">23 СЕНТЯБРЯ</h3>
+  <a href="https://t.me/peredelanoconf_dubai" class="button">присоединиться</a>
+  <svg class="mark" xmlns="http://www.w3.org/2000/svg" width="49" height="49" viewBox="0 0 49 49" fill="none">
+    <path d="M13 9H38V37H13V9Z" class="mark_bg"/>
+    <path d="M33 37H38V41H33V37Z" class="mark_bg"/>
+    <path d="M13 37H18V41H13V37Z" class="mark_bg"/>
+    <path d="M37.125 5H13.875V9H37.125V41H33.25V37H29.375V33H21.625V37H17.75V41H13.875V5H10V45H17.75V41H21.625V37H29.375V41H33.25V45H41V5H37.125Z" fill="#303030"/>
+  </svg>
+</div><div class="card">
+  <picture><source srcset="img/image.webp" type="image/webp"><img src="img/image.jpg" alt="city" class="card__img"></picture>
+  <h3 class="card__title">Ханой</h3>
+  <p class="card__text">Началась работа над первым митапом Peredelanoconf в Ханой! Митап будет проходить в формате огромной домашней вечеринки.</p>
+  <h3 class="card__title">23 СЕНТЯБРЯ</h3>
+  <a href="https://t.me/Peredelanoconfvietnam" class="button">присоединиться</a>
+  <svg class="mark" xmlns="http://www.w3.org/2000/svg" width="49" height="49" viewBox="0 0 49 49" fill="none">
+    <path d="M13 9H38V37H13V9Z" class="mark_bg"/>
+    <path d="M33 37H38V41H33V37Z" class="mark_bg"/>
+    <path d="M13 37H18V41H13V37Z" class="mark_bg"/>
+    <path d="M37.125 5H13.875V9H37.125V41H33.25V37H29.375V33H21.625V37H17.75V41H13.875V5H10V45H17.75V41H21.625V37H29.375V41H33.25V45H41V5H37.125Z" fill="#303030"/>
+  </svg>
+</div><div class="card">
+  <picture><source srcset="img/image.webp" type="image/webp"><img src="img/image.jpg" alt="city" class="card__img"></picture>
+  <h3 class="card__title">Душанбе</h3>
+  <p class="card__text">Началась работа над первым митапом Peredelanoconf в Душанбе! Митап будет проходить в формате огромной домашней вечеринки.</p>
+  <h3 class="card__title">30 СЕНТЯБРЯ</h3>
+  <a href="https://t.me/peredelano_dushanbe" class="button">присоединиться</a>
+  <svg class="mark" xmlns="http://www.w3.org/2000/svg" width="49" height="49" viewBox="0 0 49 49" fill="none">
+    <path d="M13 9H38V37H13V9Z" class="mark_bg"/>
+    <path d="M33 37H38V41H33V37Z" class="mark_bg"/>
+    <path d="M13 37H18V41H13V37Z" class="mark_bg"/>
+    <path d="M37.125 5H13.875V9H37.125V41H33.25V37H29.375V33H21.625V37H17.75V41H13.875V5H10V45H17.75V41H21.625V37H29.375V41H33.25V45H41V5H37.125Z" fill="#303030"/>
+  </svg>
+</div><div class="card">
+  <picture><source srcset="img/image.webp" type="image/webp"><img src="img/image.jpg" alt="city" class="card__img"></picture>
+  <h3 class="card__title">Баку</h3>
+  <p class="card__text">Началась работа над первым митапом Peredelanoconf в Баку! Митап будет проходить в формате огромной домашней вечеринки.</p>
+  <h3 class="card__title">30 СЕНТЯБРЯ</h3>
+  <a href="https://t.me/peredelanoconfbaku" class="button">присоединиться</a>
+  <svg class="mark" xmlns="http://www.w3.org/2000/svg" width="49" height="49" viewBox="0 0 49 49" fill="none">
+    <path d="M13 9H38V37H13V9Z" class="mark_bg"/>
+    <path d="M33 37H38V41H33V37Z" class="mark_bg"/>
+    <path d="M13 37H18V41H13V37Z" class="mark_bg"/>
+    <path d="M37.125 5H13.875V9H37.125V41H33.25V37H29.375V33H21.625V37H17.75V41H13.875V5H10V45H17.75V41H21.625V37H29.375V41H33.25V45H41V5H37.125Z" fill="#303030"/>
+  </svg>
+</div><div class="card">
+  <picture><source srcset="img/image.webp" type="image/webp"><img src="img/image.jpg" alt="city" class="card__img"></picture>
+  <h3 class="card__title">Бангкок</h3>
+  <p class="card__text">Началась работа над первым митапом Peredelanoconf в Бангкок! Митап будет проходить в формате огромной домашней вечеринки.</p>
+  <h3 class="card__title">19 АВГУСТА</h3>
+  <a href="https://t.me/peredelano_Astana" class="button">присоединиться</a>
+  <svg class="mark" xmlns="http://www.w3.org/2000/svg" width="49" height="49" viewBox="0 0 49 49" fill="none">
+    <path d="M13 9H38V37H13V9Z" class="mark_bg"/>
+    <path d="M33 37H38V41H33V37Z" class="mark_bg"/>
+    <path d="M13 37H18V41H13V37Z" class="mark_bg"/>
+    <path d="M37.125 5H13.875V9H37.125V41H33.25V37H29.375V33H21.625V37H17.75V41H13.875V5H10V45H17.75V41H21.625V37H29.375V41H33.25V45H41V5H37.125Z" fill="#303030"/>
+  </svg>
+</div><div class="card">
+  <picture><source srcset="img/image.webp" type="image/webp"><img src="img/image.jpg" alt="city" class="card__img"></picture>
+  <h3 class="card__title">Бали</h3>
+  <p class="card__text">Началась работа над первым митапом Peredelanoconf в Бали! Митап будет проходить в формате огромной домашней вечеринки.</p>
+  <h3 class="card__title">16 СЕНТЯБРЯ</h3>
+  <a href="https://t.me/peredelano_bali" class="button">присоединиться</a>
+  <svg class="mark" xmlns="http://www.w3.org/2000/svg" width="49" height="49" viewBox="0 0 49 49" fill="none">
+    <path d="M13 9H38V37H13V9Z" class="mark_bg"/>
+    <path d="M33 37H38V41H33V37Z" class="mark_bg"/>
+    <path d="M13 37H18V41H13V37Z" class="mark_bg"/>
+    <path d="M37.125 5H13.875V9H37.125V41H33.25V37H29.375V33H21.625V37H17.75V41H13.875V5H10V45H17.75V41H21.625V37H29.375V41H33.25V45H41V5H37.125Z" fill="#303030"/>
+  </svg>
+</div><div class="card">
+  <picture><source srcset="img/image.webp" type="image/webp"><img src="img/image.jpg" alt="city" class="card__img"></picture>
+  <h3 class="card__title">Стамбул</h3>
+  <p class="card__text">Началась работа над первым митапом Peredelanoconf в Стамбул! Митап будет проходить в формате огромной домашней вечеринки.</p>
+  <h3 class="card__title">29 ИЮЛЯ</h3>
+  <a href="https://t.me/peredelanoconf_istanbul" class="button">присоединиться</a>
+  <svg class="mark" xmlns="http://www.w3.org/2000/svg" width="49" height="49" viewBox="0 0 49 49" fill="none">
+    <path d="M13 9H38V37H13V9Z" class="mark_bg"/>
+    <path d="M33 37H38V41H33V37Z" class="mark_bg"/>
+    <path d="M13 37H18V41H13V37Z" class="mark_bg"/>
+    <path d="M37.125 5H13.875V9H37.125V41H33.25V37H29.375V33H21.625V37H17.75V41H13.875V5H10V45H17.75V41H21.625V37H29.375V41H33.25V45H41V5H37.125Z" fill="#303030"/>
+  </svg>
 </div>
       </div>
       <div class="tabs__pane">
-        <div class="card">
-    <picture><source srcset="img/image.webp" type="image/webp"><img src="img/image.jpg" alt="city" class="card__img"></picture>
-    <h3 class="card__title">city</h3>
-    <p class="card__text">Началась работа над первым митапом Peredelanoconf в {City}! Митап будет проходить в формате огромной домашней вечеринки.</p>
-    <h3 class="card__title">(date soon)</h3>
-    <a href="#" class="button">присоединиться</a>
-    <svg class="mark" xmlns="http://www.w3.org/2000/svg" width="49" height="49" viewBox="0 0 49 49" fill="none">
-        <path d="M13 9H38V37H13V9Z" class="mark_bg"/>
-        <path d="M33 37H38V41H33V37Z" class="mark_bg"/>
-        <path d="M13 37H18V41H13V37Z" class="mark_bg"/>
-        <path d="M37.125 5H13.875V9H37.125V41H33.25V37H29.375V33H21.625V37H17.75V41H13.875V5H10V45H17.75V41H21.625V37H29.375V41H33.25V45H41V5H37.125Z" fill="#303030"/>
-      </svg>
-</div>
-        <div class="card">
-    <picture><source srcset="img/image.webp" type="image/webp"><img src="img/image.jpg" alt="city" class="card__img"></picture>
-    <h3 class="card__title">city</h3>
-    <p class="card__text">Началась работа над первым митапом Peredelanoconf в {City}! Митап будет проходить в формате огромной домашней вечеринки.</p>
-    <h3 class="card__title">(date soon)</h3>
-    <a href="#" class="button">присоединиться</a>
-    <svg class="mark" xmlns="http://www.w3.org/2000/svg" width="49" height="49" viewBox="0 0 49 49" fill="none">
-        <path d="M13 9H38V37H13V9Z" class="mark_bg"/>
-        <path d="M33 37H38V41H33V37Z" class="mark_bg"/>
-        <path d="M13 37H18V41H13V37Z" class="mark_bg"/>
-        <path d="M37.125 5H13.875V9H37.125V41H33.25V37H29.375V33H21.625V37H17.75V41H13.875V5H10V45H17.75V41H21.625V37H29.375V41H33.25V45H41V5H37.125Z" fill="#303030"/>
-      </svg>
-</div>
-        <div class="card">
-    <picture><source srcset="img/image.webp" type="image/webp"><img src="img/image.jpg" alt="city" class="card__img"></picture>
-    <h3 class="card__title">city</h3>
-    <p class="card__text">Началась работа над первым митапом Peredelanoconf в {City}! Митап будет проходить в формате огромной домашней вечеринки.</p>
-    <h3 class="card__title">(date soon)</h3>
-    <a href="#" class="button">присоединиться</a>
-    <svg class="mark" xmlns="http://www.w3.org/2000/svg" width="49" height="49" viewBox="0 0 49 49" fill="none">
-        <path d="M13 9H38V37H13V9Z" class="mark_bg"/>
-        <path d="M33 37H38V41H33V37Z" class="mark_bg"/>
-        <path d="M13 37H18V41H13V37Z" class="mark_bg"/>
-        <path d="M37.125 5H13.875V9H37.125V41H33.25V37H29.375V33H21.625V37H17.75V41H13.875V5H10V45H17.75V41H21.625V37H29.375V41H33.25V45H41V5H37.125Z" fill="#303030"/>
-      </svg>
-</div>
-        <div class="card">
-    <picture><source srcset="img/image.webp" type="image/webp"><img src="img/image.jpg" alt="city" class="card__img"></picture>
-    <h3 class="card__title">city</h3>
-    <p class="card__text">Началась работа над первым митапом Peredelanoconf в {City}! Митап будет проходить в формате огромной домашней вечеринки.</p>
-    <h3 class="card__title">(date soon)</h3>
-    <a href="#" class="button">присоединиться</a>
-    <svg class="mark" xmlns="http://www.w3.org/2000/svg" width="49" height="49" viewBox="0 0 49 49" fill="none">
-        <path d="M13 9H38V37H13V9Z" class="mark_bg"/>
-        <path d="M33 37H38V41H33V37Z" class="mark_bg"/>
-        <path d="M13 37H18V41H13V37Z" class="mark_bg"/>
-        <path d="M37.125 5H13.875V9H37.125V41H33.25V37H29.375V33H21.625V37H17.75V41H13.875V5H10V45H17.75V41H21.625V37H29.375V41H33.25V45H41V5H37.125Z" fill="#303030"/>
-      </svg>
-</div>
-        <div class="card">
-    <picture><source srcset="img/image.webp" type="image/webp"><img src="img/image.jpg" alt="city" class="card__img"></picture>
-    <h3 class="card__title">city</h3>
-    <p class="card__text">Началась работа над первым митапом Peredelanoconf в {City}! Митап будет проходить в формате огромной домашней вечеринки.</p>
-    <h3 class="card__title">(date soon)</h3>
-    <a href="#" class="button">присоединиться</a>
-    <svg class="mark" xmlns="http://www.w3.org/2000/svg" width="49" height="49" viewBox="0 0 49 49" fill="none">
-        <path d="M13 9H38V37H13V9Z" class="mark_bg"/>
-        <path d="M33 37H38V41H33V37Z" class="mark_bg"/>
-        <path d="M13 37H18V41H13V37Z" class="mark_bg"/>
-        <path d="M37.125 5H13.875V9H37.125V41H33.25V37H29.375V33H21.625V37H17.75V41H13.875V5H10V45H17.75V41H21.625V37H29.375V41H33.25V45H41V5H37.125Z" fill="#303030"/>
-      </svg>
-</div>
+          <div class="card">
+  <picture><source srcset="img/image.webp" type="image/webp"><img src="img/image.jpg" alt="city" class="card__img"></picture>
+  <h3 class="card__title">Буэнос-Айрес</h3>
+  <p class="card__text">Началась работа над первым митапом Peredelanoconf в Буэнос-Айрес! Митап будет проходить в формате огромной домашней вечеринки.</p>
+  <h3 class="card__title">02 СЕНТЯБРЯ</h3>
+  <a href="https://t.me/peredelanoconfargentina" class="button">присоединиться</a>
+  <svg class="mark" xmlns="http://www.w3.org/2000/svg" width="49" height="49" viewBox="0 0 49 49" fill="none">
+    <path d="M13 9H38V37H13V9Z" class="mark_bg"/>
+    <path d="M33 37H38V41H33V37Z" class="mark_bg"/>
+    <path d="M13 37H18V41H13V37Z" class="mark_bg"/>
+    <path d="M37.125 5H13.875V9H37.125V41H33.25V37H29.375V33H21.625V37H17.75V41H13.875V5H10V45H17.75V41H21.625V37H29.375V41H33.25V45H41V5H37.125Z" fill="#303030"/>
+  </svg>
+</div>,
       </div>
-      <div class="tabs__pane" id="content-3">
-        <div class="card">
-    <picture><source srcset="img/image.webp" type="image/webp"><img src="img/image.jpg" alt="city" class="card__img"></picture>
-    <h3 class="card__title">city</h3>
-    <p class="card__text">Началась работа над первым митапом Peredelanoconf в {City}! Митап будет проходить в формате огромной домашней вечеринки.</p>
-    <h3 class="card__title">(date soon)</h3>
-    <a href="#" class="button">присоединиться</a>
-    <svg class="mark" xmlns="http://www.w3.org/2000/svg" width="49" height="49" viewBox="0 0 49 49" fill="none">
-        <path d="M13 9H38V37H13V9Z" class="mark_bg"/>
-        <path d="M33 37H38V41H33V37Z" class="mark_bg"/>
-        <path d="M13 37H18V41H13V37Z" class="mark_bg"/>
-        <path d="M37.125 5H13.875V9H37.125V41H33.25V37H29.375V33H21.625V37H17.75V41H13.875V5H10V45H17.75V41H21.625V37H29.375V41H33.25V45H41V5H37.125Z" fill="#303030"/>
-      </svg>
-</div>
-        <div class="card">
-    <picture><source srcset="img/image.webp" type="image/webp"><img src="img/image.jpg" alt="city" class="card__img"></picture>
-    <h3 class="card__title">city</h3>
-    <p class="card__text">Началась работа над первым митапом Peredelanoconf в {City}! Митап будет проходить в формате огромной домашней вечеринки.</p>
-    <h3 class="card__title">(date soon)</h3>
-    <a href="#" class="button">присоединиться</a>
-    <svg class="mark" xmlns="http://www.w3.org/2000/svg" width="49" height="49" viewBox="0 0 49 49" fill="none">
-        <path d="M13 9H38V37H13V9Z" class="mark_bg"/>
-        <path d="M33 37H38V41H33V37Z" class="mark_bg"/>
-        <path d="M13 37H18V41H13V37Z" class="mark_bg"/>
-        <path d="M37.125 5H13.875V9H37.125V41H33.25V37H29.375V33H21.625V37H17.75V41H13.875V5H10V45H17.75V41H21.625V37H29.375V41H33.25V45H41V5H37.125Z" fill="#303030"/>
-      </svg>
-</div>
-        <div class="card">
-    <picture><source srcset="img/image.webp" type="image/webp"><img src="img/image.jpg" alt="city" class="card__img"></picture>
-    <h3 class="card__title">city</h3>
-    <p class="card__text">Началась работа над первым митапом Peredelanoconf в {City}! Митап будет проходить в формате огромной домашней вечеринки.</p>
-    <h3 class="card__title">(date soon)</h3>
-    <a href="#" class="button">присоединиться</a>
-    <svg class="mark" xmlns="http://www.w3.org/2000/svg" width="49" height="49" viewBox="0 0 49 49" fill="none">
-        <path d="M13 9H38V37H13V9Z" class="mark_bg"/>
-        <path d="M33 37H38V41H33V37Z" class="mark_bg"/>
-        <path d="M13 37H18V41H13V37Z" class="mark_bg"/>
-        <path d="M37.125 5H13.875V9H37.125V41H33.25V37H29.375V33H21.625V37H17.75V41H13.875V5H10V45H17.75V41H21.625V37H29.375V41H33.25V45H41V5H37.125Z" fill="#303030"/>
-      </svg>
+      <div class="tabs__pane">
+          <div class="card">
+  <picture><source srcset="img/image.webp" type="image/webp"><img src="img/image.jpg" alt="city" class="card__img"></picture>
+  <h3 class="card__title">Кейптаун</h3>
+  <p class="card__text">Началась работа над первым митапом Peredelanoconf в Кейптаун! Митап будет проходить в формате огромной домашней вечеринки.</p>
+  <h3 class="card__title">07 ОКТЯБРЯ</h3>
+  <a href="https://t.me/peredelano_capetown" class="button">присоединиться</a>
+  <svg class="mark" xmlns="http://www.w3.org/2000/svg" width="49" height="49" viewBox="0 0 49 49" fill="none">
+    <path d="M13 9H38V37H13V9Z" class="mark_bg"/>
+    <path d="M33 37H38V41H33V37Z" class="mark_bg"/>
+    <path d="M13 37H18V41H13V37Z" class="mark_bg"/>
+    <path d="M37.125 5H13.875V9H37.125V41H33.25V37H29.375V33H21.625V37H17.75V41H13.875V5H10V45H17.75V41H21.625V37H29.375V41H33.25V45H41V5H37.125Z" fill="#303030"/>
+  </svg>
 </div>
       </div>
     </div>
-  </div>
+</div>
     </div>
 </section>
     <footer class="footer">
@@ -333,7 +431,7 @@
 
                         Разработчик, дизайнер, менеджер или кто-то еще — <span class="footer__content-text footer__content-text_pink">мы рады любым мастерам своего дела,</span> а также новичкам
                 </p>
-                <a href="#tabs__content" class="button footer__button">выбрать город</a>
+                <a href="#choose" class="button footer__button">выбрать город</a>
 
             </div>
             <picture><source srcset="img/imfooter.webp" type="image/webp"><img src="img/imfooter.png" alt="comp" class="footer__img"></picture>
@@ -386,8 +484,8 @@
     </div>
 </footer>
 
-    <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js?_v=20230715130736"></script>
-<script src="js/app.min.js?_v=20230715130736"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js?_v=20230721211349"></script>   
+<script src="js/app.min.js?_v=20230721211349"></script>
 
 </body>
 </html>
